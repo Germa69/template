@@ -19,3 +19,5 @@ Mô tả công việc
 4. CSS header
 
 5. Thêm thư viện Jquery CDN (thao tác với DOM ngắn ngọn hơn)
+
+6. Hiển thị gợi ý tìm kiếm và thay đổi ngôn ngữ
