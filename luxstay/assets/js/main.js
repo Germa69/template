@@ -1,3 +1,8 @@
+// [Loader Page]
+$(window).on('load', function(e) {
+    $('.loader').delay(1000).fadeOut('linear');
+});
+
 // [Search Suggest]
 $('.header__search-input').focus(function() {
 	$('.header__search-suggest').fadeIn();

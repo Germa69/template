@@ -10,7 +10,7 @@ Tạo ra 1 website cho phép đặt phòng theo thời gian, cung cấp những 
 Mô tả công việc
 ```
 
-1. Dựng base source
+1. Dựng base source 
 
 2. Dựng base CSS, reset CSS, grid CSS
 
@@ -21,3 +21,5 @@ Mô tả công việc
 5. Thêm thư viện Jquery CDN (thao tác với DOM ngắn ngọn hơn)
 
 6. Hiển thị gợi ý tìm kiếm và thay đổi ngôn ngữ
+
+7. Thêm loader page

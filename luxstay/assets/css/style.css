@@ -9,6 +9,38 @@
 */
 
 
+/* [Loading Page] */
+.loader {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	background: url(https://vanmaymoingay.com/wp-content/uploads/2019/11/dd2-20.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.loader-icon{
+    font-size: 70px;
+    color: #16A596;
+    animation: loader 1s ease-in-out infinite;
+}
+
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 /* [Header] */
 .header {
 	position: fixed;
