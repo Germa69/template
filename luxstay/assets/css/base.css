@@ -1,7 +1,11 @@
 :root {
+	--white-color: #ffffff;
 	--gray-color: #F5F5F5;
     --dark-color: #555555;
     --tomato-color: tomato;
+
+	--header-height: 80px;
+	--header-search: 48px;
 }
 
 *,
