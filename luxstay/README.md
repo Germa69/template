@@ -23,3 +23,7 @@ Mô tả công việc
 6. Hiển thị gợi ý tìm kiếm và thay đổi ngôn ngữ
 
 7. Thêm loader page
+
+8. Chỉnh sửa loader và thêm daterangepicker
+
+9. Thêm tăng/giảm số lượng người đặt
