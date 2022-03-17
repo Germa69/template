@@ -49,11 +49,17 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
+
+    <!-- [CSS Date Range Picker] -->
+    <link rel="stylesheet" href="./assets/css/daterangepicker/all.css" />
   </head>
   <body>
-	<div class="loader">
-		<i class="fal fa-spinner loader-icon"></i>
-	</div>
+    <section id="loader-wrapper">
+      <section id="loader"></section>
+      <span>loading...</span>
+      <section class="loader-section section-left"></section>
+      <section class="loader-section section-right"></section>
+    </section>
 
     <div class="app">
       <header class="header">
@@ -89,8 +95,15 @@
                 <div class="header__search-options-item">
                   <i
                     class="far fa-calendar-check header__search-options-icon"
-                  ></i
-                  >Ngày
+                  ></i>
+                  <input
+                    type="text"
+                    name="datefilter"
+                    id="header__search-datefilter"
+                    value=""
+                    placeholder="Ngày"
+                    autocomplete="off"
+                  />
                 </div>
                 <div class="header__search-options-item">
                   <i class="fas fa-user header__search-options-icon"></i>Khách
@@ -236,7 +249,9 @@
                               class="header__nav-language-img"
                             />
                             <p class="change__languages-vi-name">Tiếng Việt</p>
-                            <span class="far fa-check change__languages-vi-check"></span>
+                            <span
+                              class="far fa-check change__languages-vi-check"
+                            ></span>
                           </div>
                         </li>
                         <li class="change__languages-item">
@@ -266,7 +281,9 @@
                           <div class="change__languages-vi">
                             <strong>VND</strong>
                             <p class="change__languages-vi-name">Tiếng Việt</p>
-                            <span class="far fa-check change__languages-vi-check"></span>
+                            <span
+                              class="far fa-check change__languages-vi-check"
+                            ></span>
                           </div>
                         </li>
                         <li class="change__languages-item">
@@ -289,14 +306,25 @@
 
       <div class="slider"></div>
 
-      <div class="main"></div>
+      <div class="main">
+       
+      </div>
 
       <div class="download-app"></div>
 
       <footer class="footer"></footer>
     </div>
 
-	<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/datarangepicker/moment.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/datarangepicker/all.js"
+    ></script>
+
     <!-- [JS Main] -->
     <script src="./assets/js/main.js"></script>
   </body>

@@ -1,21 +1,24 @@
 // [Loader Page]
-$(window).on('load', function(e) {
-    $('.loader').delay(1000).fadeOut('linear');
+$(window).on("load", function (e) {
+  $("#loader-wrapper").delay(2500).fadeOut("linear");
+
+  setTimeout(function () {
+    $(".loader-section").addClass("no-js");
+  }, 2200);
 });
 
 // [Search Suggest]
-$('.header__search-input').focus(function() {
-	$('.header__search-suggest').fadeIn();
+$(".header__search-input").focus(function () {
+  $(".header__search-suggest").fadeIn();
 }),
+  $(".header__search-input").blur(function () {
+    $(".header__search-suggest").fadeOut();
+  });
 
-$('.header__search-input').blur(function() {
-	$('.header__search-suggest').fadeOut();
-})
-
-// [Change Languages] 
+// [Change Languages]
 // [1. Jquery]
-$('.header__nav-language').click(function() {
-	$('.change__languages').toggleClass('show');
+$(".header__nav-language").click(function () {
+  $(".change__languages").toggleClass("show");
 });
 
 // [2. DOM Event]
@@ -28,4 +31,31 @@ $('.header__nav-language').click(function() {
 
 // btnChangeLanguages.addEventListener('click', handleChangeLanguages);
 
+// [Date Range Picker]
+$(function () {
+  $('input[name="datefilter"]').daterangepicker({
+    autoUpdateInput: false,
+    locale: {
+      cancelLabel: "Clear",
+    },
+  });
+
+  $('input[name="datefilter"]').on(
+    "apply.daterangepicker",
+    function (ev, picker) {
+      $(this).val(
+        picker.startDate.format("MM/DD") +
+          " - " +
+          picker.endDate.format("MM/DD")
+      );
+    }
+  );
+
+  $('input[name="datefilter"]').on(
+    "cancel.daterangepicker",
+    function (ev, picker) {
+      $(this).val("");
+    }
+  );
+});
 
