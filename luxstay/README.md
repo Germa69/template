@@ -28,4 +28,6 @@ Mô tả công việc
 
 9. Thêm tăng/giảm số lượng người đặt   
 
-10. Thiết kế mobile header và resopnsive header
+10. Thiết kế mobile và resopnsive header
+
+11. Dựng khung slider
