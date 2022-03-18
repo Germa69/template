@@ -4,74 +4,92 @@
 
 /* Mobile: width < 740px */
 @media screen and (max-width: 46.1875em) {
-	
+
 	#logo-pc {
 		display: none;
 	}
-	
-	#logo-mobile{
-        display: block;
-    }
-    
-    .header__search {
-        display: none;
-    }
-    
-    .header__search-options-item{
-        display: none;
-    }
 
-    .header__nav{
-        display:none;
-    }
-    
-    .nav__mobile-btn{
-        display: flex;
-    }
-    
-    .daterangepicker {
-		display: none !important; 
+	#logo-mobile {
+		display: block;
 	}
-	
+
+	.header__search {
+		display: none;
+	}
+
+	.header__search-options-item {
+		display: none;
+	}
+
+	.header__nav {
+		display: none;
+	}
+
+	.nav__mobile-btn {
+		display: flex;
+	}
+
+	.daterangepicker {
+		display: none !important;
+	}
+
 	.owl-nav button.owl-prev,
-    .owl-nav button.owl-next{
-        width: 40px;
-        height: 40px;
-    }
-    .owl-nav button.owl-prev{
-        margin-left: -15px;
-    }
-    .owl-nav button.owl-next{
-        margin-right: -15px;
-    }
-    
-    #suggest-slider > .owl-nav {
-		top: 35%; 
-    }
+	.owl-nav button.owl-next {
+		width: 40px;
+		height: 40px;
+	}
+
+	.owl-nav button.owl-prev {
+		margin-left: -15px;
+	}
+
+	.owl-nav button.owl-next {
+		margin-right: -15px;
+	}
+
+	#suggest-slider>.owl-nav {
+		top: 35%;
+	}
+
+	.download-app__by-image {
+		display: none;
+	}
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media screen and (min-width: 46.1875em) and (max-width: 63.9375em) {
-	.header__search{
-        flex: none;
-    }
-    
+	.header__search {
+		flex: none;
+	}
+
 	.header__nav {
 		display: none;
 	}
-	
-	.nav__mobile-btn{
-        display: flex;
-    }
-    
+
+	.nav__mobile-btn {
+		display: flex;
+	}
+
 	.daterangepicker {
 		width: auto;
 		left: 150px !important;
 		right: 130px !important;
 	}
-	
+
 	.daterangepicker .drp-calendar {
 		float: left;
+	}
+
+	.download-app__by-image {
+		display: none;
+	}
+
+	.app-download-qrcode {
+        display: none;
+	}
+
+	.app-download-store {
+		text-align: center;
 	}
 }
 
@@ -81,19 +99,24 @@
 		width: auto;
 		left: 117px !important;
 	}
-	
+
 	.daterangepicker .drp-calendar {
 		float: left;
+	}
+	
+	.app-download-qrcode {
+		width: 70px;
+        height: 70px;
 	}
 }
 
 /* PC: width >= 1280px */
-@media screen and (min-width: 80em) and (max-width: 86.25em){
+@media screen and (min-width: 80em) and (max-width: 86.25em) {
 	.daterangepicker {
 		width: auto;
 		left: 147px !important;
 	}
-	
+
 	.daterangepicker .drp-calendar {
 		float: left;
 	}
@@ -104,12 +127,8 @@
 		width: auto;
 		left: 275px !important;
 	}
-	
+
 	.daterangepicker .drp-calendar {
 		float: left;
 	}
 }
-
-
-
-
