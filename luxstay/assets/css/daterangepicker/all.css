@@ -1,13 +1,12 @@
 .daterangepicker {
 	position: fixed;
+	top: 64px !important;
 	color: inherit;
 	background-color: #fff;
 	border-radius: 4px;
 	border: 1px solid #ddd;
 	padding: 0;
 	margin-top: 7px;
-	/* top: 63px !important;
-	left: 222px !important; */
 	z-index: 3001;
 	display: none;
 }

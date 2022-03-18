@@ -129,4 +129,15 @@ $(".nav__mobile-language").click(function () {
   $(".mobile__language").toggleClass("show-mobile__language");
 });
 
+// Bottom on Top
+$(window).scroll(function () {
+  if ($(this).scrollTop() >= 300) {
+    $(".bottom-on-top__btn").fadeIn();
+  } else {
+    $(".bottom-on-top__btn").fadeOut();
+  }
+});
 
+$(".bottom-on-top__btn").click(function () {
+  $("html, body").animate({ scrollTop: 0 }, 1500);
+});

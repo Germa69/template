@@ -12,8 +12,7 @@
     position: fixed;
     z-index: 100;
 
-    /* display: flex; */
-    display: none;
+    display: flex;
 
     flex-direction: column;
     justify-content: center;
@@ -794,7 +793,7 @@
 
 /* [Slider] */
 .slider {
-    margin-top: calc(80px + 45px);
+    padding-top: calc(80px + 45px);
 }
 
 .owl-dots {
@@ -1271,4 +1270,33 @@
 .author-copyright a {
     text-decoration: underline;
     color: #716F81;
+}
+
+/* [Bottom on top] */
+
+.bottom-on-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 10;
+}
+
+.bottom-on-top__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.6;
+    
+    background: black;
+    color: #fff;
+}
+
+.bottom-on-top__btn:hover {
+    opacity: 1;
 }
