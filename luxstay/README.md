@@ -41,3 +41,5 @@ Slider
 1. Dựng khung slider
 
 2. CSS slider
+
+3. Thên thư viện Owl carousel (chuyển động các slide)
