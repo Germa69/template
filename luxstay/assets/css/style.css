@@ -1041,3 +1041,69 @@
     font-size: 17px;
     z-index: 1;
 }
+
+/* [Download app] */
+.download__app{
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 45px;
+}
+
+.download__app-introduce,
+.download__app-picture{
+    margin-top: 16px;
+}
+
+.download__app-logo-svg{
+    width: 343px;
+    max-width: 100%;
+}
+
+.download__app-content{
+    margin-top: 16px;
+}
+
+.download__app-content-heading{
+    font-weight: 700;
+}
+
+.download__app-content-description{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.download__app-by-image{
+    margin-top: 45px;
+}
+
+.download__app-qrcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__app-qrcode-img{
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.download__app--app{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download__app-by-store{
+    display: inline-block;
+    padding-top: 14px;
+}
+
+.download__app-by-store-img{
+    width: 138px;
+}
+
+.download__app-image{
+    width: 100%;
+}

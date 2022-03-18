@@ -43,3 +43,19 @@ Slider
 2. CSS slider
 
 3. Thên thư viện Owl carousel (chuyển động các slide)
+
+```
+Main
+```
+
+1. Dựng khung main
+
+2. CSS main
+
+```
+Download app
+```
+
+1. Dựng khung download app
+
+2. CSS download app
