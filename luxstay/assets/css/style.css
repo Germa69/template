@@ -791,3 +791,14 @@
 .change__languages-item {
     list-style: none;
 }
+
+/* [Slider] */
+.slider {
+    margin-top: calc(80px + 45px);
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}

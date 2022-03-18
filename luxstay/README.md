@@ -14,20 +14,30 @@ Mô tả công việc
 
 2. Dựng base CSS, reset CSS, grid CSS
 
-3. Dựng khung header
+```
+Header
+```
 
-4. CSS header
+1. Dựng khung header
 
-5. Thêm thư viện Jquery CDN (thao tác với DOM ngắn ngọn hơn)
+2. CSS header
 
-6. Hiển thị gợi ý tìm kiếm và thay đổi ngôn ngữ
+3. Thêm thư viện Jquery CDN (thao tác với DOM ngắn ngọn hơn)
 
-7. Thêm loader page
+4. Hiển thị gợi ý tìm kiếm và thay đổi ngôn ngữ
 
-8. Chỉnh sửa loader và thêm daterangepicker
+5. Thêm loader page
 
-9. Thêm tăng/giảm số lượng người đặt   
+6. Chỉnh sửa loader và thêm daterangepicker
 
-10. Thiết kế mobile và resopnsive header
+7. Thêm tăng/giảm số lượng người đặt   
 
-11. Dựng khung slider
+8. Thiết kế mobile và resopnsive header
+
+```
+Slider
+```
+
+1. Dựng khung slider
+
+2. CSS slider
