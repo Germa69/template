@@ -80,7 +80,7 @@ $(function () {
     let booking_number = numberParent.find(".header__booking-number");
     let booking_minus = numberParent.find(".header__booking-minus");
     let value = booking_number.val();
-    
+
     booking_number.val(++value);
     booking_minus.removeClass("header__booking-minus--disabled");
   }),
@@ -90,20 +90,41 @@ $(function () {
         let numberParent = that.parent();
         let booking_number = numberParent.find(".header__booking-number");
         let booking_minus = numberParent.find(".header__booking-minus");
-        let search_options_text = $('header__search-options-text');
+        let search_options_text = $("header__search-options-text");
         let value = booking_number.val();
 
         if (value != 0) {
           booking_number.val(--value);
         } else {
-          search_options_text.html('Số khách');
+          search_options_text.html("Số khách");
           booking_minus.addClass("header__booking-minus--disabled");
         }
       }
     });
-    
-    $('.header__booking-delete').on('click', function() {
-      let booking_number = $(".header__booking-number");
-      booking_number.val(0);
-    })
+
+  $(".header__booking-delete").on("click", function () {
+    let booking_number = $(".header__booking-number");
+    booking_number.val(0);
+  });
+});
+
+// [Nav mobile]
+$(".nav__mobile-btn--show").click(function () {
+  $(".nav__mobile").addClass("show-nav__mobile");
+  $(".nav_overlay").addClass("show-overlay");
+});
+
+$(".nav__mobile-close").click(function () {
+  $(".nav__mobile").removeClass("show-nav__mobile");
+  $(".nav_overlay").removeClass("show-overlay");
+});
+
+$(".nav_overlay").click(function () {
+  $(".nav__mobile").removeClass("show-nav__mobile");
+  $(".nav_overlay").removeClass("show-overlay");
+});
+
+// [Nav mobile language]
+$(".nav__mobile-language").click(function () {
+  $(".mobile__language").toggleClass("show-mobile__language");
 });

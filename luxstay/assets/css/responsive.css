@@ -1,0 +1,99 @@
+/* Mobile: width < 740px <=> 46.1875em */
+/* Tablet: width >= 740px and width < 1024px  <=> 63.9375em */
+/* PC: width >= 1024px */
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+	
+	#logo-pc {
+		display: none;
+	}
+	
+	#logo-mobile{
+        display: block;
+    }
+    
+    .header__search {
+        display: none;
+    }
+    
+    .header__search-options-item{
+        display: none;
+    }
+
+    .header__nav{
+        display:none;
+    }
+    
+    .nav__mobile-btn{
+        display: flex;
+    }
+    
+    .daterangepicker {
+		display: none !important; 
+	}
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.1875em) and (max-width: 63.9375em) {
+	.header__search{
+        flex: none;
+    }
+    
+	.header__nav {
+		display: none;
+	}
+	
+	.nav__mobile-btn{
+        display: flex;
+    }
+    
+	.daterangepicker {
+		width: auto;
+		left: 150px !important;
+		right: 130px !important;
+	}
+	
+	.daterangepicker .drp-calendar {
+		float: left;
+	}
+}
+
+/* PC: width >= 1024px and width < 1279px*/
+@media screen and (min-width: 64em) and (max-width: 79.9375em) {
+	.daterangepicker {
+		width: auto;
+		left: 117px !important;
+	}
+	
+	.daterangepicker .drp-calendar {
+		float: left;
+	}
+}
+
+/* PC: width >= 1280px */
+@media screen and (min-width: 80em) and (max-width: 86.25em){
+	.daterangepicker {
+		width: auto;
+		left: 147px !important;
+	}
+	
+	.daterangepicker .drp-calendar {
+		float: left;
+	}
+}
+
+@media screen and (min-width: 86.3125em) {
+	.daterangepicker {
+		width: auto;
+		left: 275px !important;
+	}
+	
+	.daterangepicker .drp-calendar {
+		float: left;
+	}
+}
+
+
+
+

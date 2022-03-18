@@ -26,4 +26,6 @@ Mô tả công việc
 
 8. Chỉnh sửa loader và thêm daterangepicker
 
-9. Thêm tăng/giảm số lượng người đặt
+9. Thêm tăng/giảm số lượng người đặt   
+
+10. Thiết kế mobile header và resopnsive header
