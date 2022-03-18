@@ -32,6 +32,22 @@
     .daterangepicker {
 		display: none !important; 
 	}
+	
+	.owl-nav button.owl-prev,
+    .owl-nav button.owl-next{
+        width: 40px;
+        height: 40px;
+    }
+    .owl-nav button.owl-prev{
+        margin-left: -15px;
+    }
+    .owl-nav button.owl-next{
+        margin-right: -15px;
+    }
+    
+    #suggest-slider > .owl-nav {
+		top: 35%; 
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */

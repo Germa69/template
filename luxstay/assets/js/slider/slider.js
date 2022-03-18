@@ -9,15 +9,16 @@ $(document).ready(function () {
     autoplayHoverPause: true,
     animateOut: "fadeOut",
   });
+  
   // Location Slider
   $("#content-slider").owlCarousel({
     items: 5,
-    loop: true,
+    loop: false,
     margin: 16,
     nav: true,
     navText: [
-      "<i class='fa fa-angle-left   owl__nav-icon'>",
-      "<i class='fa fa-angle-right  owl__nav-icon'>",
+      "<i class='fa fa-angle-left owl__nav-icon'>",
+      "<i class='fa fa-angle-right owl__nav-icon'>",
     ],
     responsive: {
       0: {
@@ -37,6 +38,7 @@ $(document).ready(function () {
       },
     },
   });
+  
   // Promotion Slider
   $("#promotion-slider").owlCarousel({
     items: 3,
@@ -57,10 +59,11 @@ $(document).ready(function () {
       },
     },
   });
+  
   // Suggest Slider
   $("#suggest-slider").owlCarousel({
     items: 4,
-    loop: true,
+    loop: false,
     margin: 16,
     nav: true,
     navText: [
@@ -85,10 +88,11 @@ $(document).ready(function () {
       },
     },
   });
+  
   // Explore Slider
   $("#explore-slider").owlCarousel({
     items: 3,
-    loop: true,
+    loop: false,
     margin: 16,
     nav: true,
     navText: [
@@ -113,10 +117,11 @@ $(document).ready(function () {
       },
     },
   });
+  
   // Tutorial Slider
   $("#tutorial-slider").owlCarousel({
     items: 3,
-    loop: true,
+    loop: false,
     margin: 16,
     nav: true,
     navText: [
