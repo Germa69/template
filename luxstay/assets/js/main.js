@@ -15,6 +15,19 @@ $(".header__search-input").focus(function () {
     $(".header__search-suggest").fadeOut();
   });
 
+$(".header__search-input").on("keyup", function () {
+  if ($(this).val().length > 0) {
+    $(".header__search-icon-del").css("display", "flex");
+  } else {
+    $(".header__search-icon-del").css("display", "none");
+  }
+});
+
+$(".header__search-icon-del").on("click", function() {
+  $(".header__search-input").val("");
+  $(this).css("display", "none");
+});
+
 // [Booking number]
 $(".header__search-options-text").click(function () {
   $(".header__search-booking").toggleClass("show");

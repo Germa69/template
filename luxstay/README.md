@@ -59,3 +59,13 @@ Download app
 1. Dựng khung download app
 
 2. CSS download app
+
+```
+Footer
+```
+
+```
+Province
+```
+
+1. Dựng khung web

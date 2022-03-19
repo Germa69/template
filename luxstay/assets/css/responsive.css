@@ -54,6 +54,64 @@
 	.download-app__by-image {
 		display: none;
 	}
+	
+	.header-wrap {
+		height: 80px;
+	}
+	
+	.header__more {
+		display: none;
+	} 
+	
+	.main-v2 {
+		padding-top: 80px;
+	}
+	
+	.header__more.is-show {
+		display: block;
+	}
+	
+	.content-description { 
+		margin-top: 24px;
+	}
+	
+	.content__heading-link {
+		width: 380px;
+	}
+	
+	.content__room-img {
+		height: 180px;
+	}
+	
+	.welcome__login-title {
+		font-size: 18px;
+	}
+	
+	.welcome__login-desc {
+		font-size: 13px;
+	}
+	
+	.login__container {
+		width: 100%;
+		top: -20px;
+	}
+	
+	.welcome__register-title {
+		font-size: 18px;
+	}
+	
+	.welcome__register-desc {
+		font-size: 13px;
+	}
+	
+	.register__container {
+		width: 100%;
+		top: -20px;
+	}
+	
+	.footer-v2 {
+		background: #f6f6f6;
+	}
 }
 
 /* Tablet: width >= 740px and width < 1024px */
@@ -90,6 +148,48 @@
 
 	.app-download-store {
 		text-align: center;
+	}
+	
+	.header-wrap {
+		height: 80px;
+	}
+	
+	.header__more {
+		display: none;
+	}
+	
+	.main-v2 {
+		padding-top: 80px;
+	}
+	
+	.header__more.is-show {
+		display: block;
+	}
+	
+	.content-description { 
+		margin-top: 24px;
+	}
+	
+	.content__heading-link {
+		width: 310px;
+	}
+	
+	.content__room-img {
+		height: 180px;
+	}
+	
+	.login__container {
+		width: 100%;
+		top: -40px;
+	}
+	
+	.register__container {
+		width: 100%;
+		top: -40px;
+	}
+	
+	.footer-v2 {
+		background: #f6f6f6;
 	}
 }
 

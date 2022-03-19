@@ -5,7 +5,9 @@
   --dark-color: #555555;
   --tomato-color: tomato;
 
+  --header-wrap: 140px;
   --header-height: 80px;
+  --header-more: calc(var(--header-wrap) - var(--header-height));
   --header-search: 48px;
 }
 
